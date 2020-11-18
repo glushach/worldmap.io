@@ -1,0 +1,19 @@
+@media(max-width: 1148px) {
+  .container {
+    max-width: 776px;
+  }
+  .continent__item_blue {
+    order: 1;
+  }
+}
+@media(max-width: 776px) {
+  .container {
+    max-width: 373px;
+  }
+  .continent__item {
+    padding: 0 9px;
+  }
+  .continent__item_display-none {
+    display: none;
+  }
+}
