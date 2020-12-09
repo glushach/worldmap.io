@@ -16,7 +16,7 @@
   background: url("../img/main-bg.png") center center/cover no-repeat;
 }
 
-.continent {
+.continents {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -26,30 +26,10 @@
           flex-wrap: wrap;
 }
 
-.continent__item {
+.continent {
   padding: 0 23px;
   width: 373px;
   min-height: 377px;
-}
-
-.continent__item_blue {
-  background-color: rgba(0, 54, 99, 0.7);
-}
-
-.continent__item_violet {
-  background-color: rgba(99, 4, 96, 0.7);
-}
-
-.continent__item_red {
-  background-color: rgba(158, 11, 15, 0.7);
-}
-
-.continent__item_yellow {
-  background-color: rgba(255, 242, 0, 0.7);
-}
-
-.continent__item_orange {
-  background-color: rgba(247, 148, 29, 0.7);
 }
 
 .continent__title {
@@ -63,6 +43,26 @@
   line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
+}
+
+.continent_america {
+  background-color: rgba(0, 54, 99, 0.7);
+}
+
+.continent_europe {
+  background-color: rgba(99, 4, 96, 0.7);
+}
+
+.continent_asia {
+  background-color: rgba(158, 11, 15, 0.7);
+}
+
+.continent_africa {
+  background-color: rgba(255, 242, 0, 0.7);
+}
+
+.continent_australia {
+  background-color: rgba(247, 148, 29, 0.7);
 }
 
 .country {
@@ -108,22 +108,22 @@
   color: #ffffff;
 }
 
-.city {
+.cities {
   padding-left: 15px;
 }
 
-.city__main-title {
+.cities__title {
   margin-bottom: 20px;
 }
 
-.city__main-title h4 {
+.cities__title h4 {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 400;
   color: #ffffff;
 }
 
-.city__item {
+.city {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -146,7 +146,7 @@
   height: 100%;
 }
 
-.city__title h5 {
+.city__name h5 {
   font-size: 21px;
   line-height: 1.2;
   font-weight: 400;
@@ -157,7 +157,7 @@
   .container {
     max-width: 776px;
   }
-  .continent__item_blue {
+  .continent_america {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
@@ -169,10 +169,10 @@
   .container {
     max-width: 373px;
   }
-  .continent__item {
+  .continent {
     padding: 0 9px;
   }
-  .continent__item_display-none {
+  .continent_display-none {
     display: none;
   }
 }

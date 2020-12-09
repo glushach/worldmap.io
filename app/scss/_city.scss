@@ -1,19 +1,7 @@
 .city {
-  padding-left: 15px;
-  &__main-title {
-    margin-bottom: 20px;
-    h4 {
-      font-size: 26px;
-      line-height: 1.2;
-      font-weight: 400;
-      color: #ffffff;
-    }
-  }
-  &__item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 11px;
-  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
   &__flag {
     margin-right: 7px;
     width: 57px;
@@ -23,7 +11,7 @@
       height: 100%;
     }
   }
-  &__title {
+  &__name {
     h5 {
       font-size: 21px;
       line-height: 1.2;
